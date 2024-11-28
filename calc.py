@@ -22,8 +22,7 @@ def sepor(string:str, seporator:str) -> list:
         ans[i] = float(ans[i])
     return ans
 
-
-
+#TODO отделить простые дейстивия от сложнных 
 if '+' in vvod:
     numbers = sepor(vvod, '+')
     if len(numbers) == 2:
